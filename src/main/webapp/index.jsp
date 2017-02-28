@@ -17,7 +17,7 @@
 		<form action="llegada" method="post">
 			<div class="form-group">
 				<label for="email">Email:</label> <input type="email"
-					class="form-control" id="nana" name="email"
+					class="form-control" id="email" name="email"
 					placeholder="Enter email">
 			</div>
 			<div class="form-group">
