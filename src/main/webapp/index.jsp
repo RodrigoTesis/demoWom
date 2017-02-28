@@ -13,7 +13,7 @@
 <body>
 
 	<div class="container">
-		<h2>DEMO - despliegue continuo!!!</h2>
+		<h2>DEMO - despliegue</h2>
 		<form action="llegada" method="post">
 			<div class="form-group">
 				<label for="email">Email:</label> <input type="email"
