@@ -34,7 +34,7 @@ public class Llegada extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
 	//	doGet(request, response);
@@ -43,9 +43,9 @@ public class Llegada extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		if(email.equals("usuario@demoWom.cl") && clave.equals("demo123")){
-			out.println("<h6>SUCCESS</h6>");
+			out.println("<h1>SUCCESS</h1>");
 		}else{
-			out.println("<h6>FAIL</h6>");
+			out.println("<h1>FAIL</h1>");
 		}
 		out.println("</body>");
 		out.println("</html>");
