@@ -1,0 +1,7 @@
+com\demo\wom\utils\ListarLibrosCuento.class
+com\demo\wom\utils\ListarOtrosLibros.class
+com\demo\wom\utils\AccionConf.class
+com\demo\wom\servlets\Llegada.class
+com\demo\wom\servlets\SPrincipal.class
+com\demo\wom\utils\AccionProxy.class
+com\demo\wom\utils\Accion.class
