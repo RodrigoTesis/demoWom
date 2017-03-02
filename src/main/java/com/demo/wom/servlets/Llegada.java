@@ -37,14 +37,18 @@ public class Llegada extends HttpServlet {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
 		
-		doGet(request, response);
+	//	doGet(request, response);
 		String email = request.getParameter("email");
 		String clave = request.getParameter("pwd");
+		out.println("<html>");
+		out.println("<body>");
 		if(email.equals("usuario@demoWom.cl") && clave.equals("demo123")){
 			out.println("<h6>SUCCESS</h6>");
 		}else{
 			out.println("<h6>FAIL</h6>");
 		}
+		out.println("</body>");
+		out.println("</html>");
 	}
 
 }
