@@ -13,7 +13,7 @@
 <body>
 
 	<div class="container">
-		<h2>DEMO - despliegue - Cambio 2</h2>
+		<h2>DEMO - despliegue - Integrando Jira - Jenkins</h2>
 		<form action="llegada" method="post">
 			<div class="form-group">
 				<label for="email">Email:</label> <input type="email"
