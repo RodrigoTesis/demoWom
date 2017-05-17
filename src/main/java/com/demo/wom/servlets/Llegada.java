@@ -42,7 +42,7 @@ public class Llegada extends HttpServlet {
 		String clave = request.getParameter("pwd");
 		out.println("<html>");
 		out.println("<body>");
-		if(email.equals("usuario@demoWom.cl") && clave.equals("demo123")){
+		if(email.equals("usuario@devops.cl") && clave.equals("demo123")){
 			out.println("<h1>SUCCESS</h1>");
 		}else{
 			out.println("<h1>FAIL</h1>");
